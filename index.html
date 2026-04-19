@@ -26,24 +26,24 @@
         </header>
 
         <main>
-            <section class="cards-container">
-                <a href="#" class="nav-card">
-                    <div class="card-icon"><i class="fa-solid fa-book-open-reader"></i></div>
-                    <h2 class="card-title">My Blog</h2>
-                    <p class="card-desc">Sharing my learnings.</p>
-                </a>
-
-                <a href="#" class="nav-card">
-                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-                    <h2 class="card-title">My Projects</h2>
-                    <p class="card-desc">Worlds I've coded.</p>
-                </a>
-
-                <a href="#" class="nav-card">
-                    <div class="card-icon"><i class="fa-solid fa-terminal"></i></div>
-                    <h2 class="card-title">Technical Guides</h2>
-                    <p class="card-desc">My practical solution notes.</p>
-                </a>
+            <section id="terminal-container">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="terminal-btn close"></span>
+                            <span class="terminal-btn minimize"></span>
+                            <span class="terminal-btn maximize"></span>
+                        </div>
+                        <div class="terminal-title">mkeremkurt@lab: ~</div>
+                    </div>
+                    <div class="terminal-body" id="terminal-body">
+                        <div id="terminal-output"></div>
+                        <div class="terminal-input-line">
+                            <span class="prompt"><span id="prompt-user">mkeremkurt@lab</span>:<span id="prompt-path">~</span>$</span>
+                            <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </main>
